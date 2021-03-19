@@ -1,5 +1,15 @@
 <template>
   <div class="p-5">
-    <h3 class="text-2xl font-bold">Settings</h3>
+    <MainHeader>Settings</MainHeader>
   </div>
 </template>
+
+<script>
+import MainHeader from '@/components/MainHeader';
+
+export default {
+  components: {
+    MainHeader
+  }
+}
+</script>

@@ -1,6 +1,16 @@
 <template>
   <div class="p-5">
-    <h3 class="text-2xl font-bold">New issue</h3>
+    <MainHeader>New issue</MainHeader>
     <p>Form here</p>
   </div>
 </template>
+
+<script>
+import MainHeader from '@/components/MainHeader';
+
+export default {
+  components: {
+    MainHeader
+  }
+}
+</script>
